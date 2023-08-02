@@ -11,7 +11,7 @@ tags:
 date: 2023-08-01 18:04 -0400
 ---
 
-  This article focuses on a strange, recurring issue I would run into while working with some astronomy data, and contains both a description of how I came across the problem, a brief theoretical background on where the issue arises from, and how I was able to resolve the issue.
+  This blog post focuses on a strange, recurring issue I would run into while working with some astronomy data, and contains both a description of how I came across the problem, a brief theoretical background on where the issue arises from, and how I was able to resolve the issue.
 
 ## The Problem
 
