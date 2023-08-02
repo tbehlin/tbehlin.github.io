@@ -3,7 +3,6 @@ layout: post
 title: Pandas Big Endian - Little Endian Mismatch Fix
 categories:
 - Blog Posts
-- Python Fix
 tags:
 - python
 - pandas
