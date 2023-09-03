@@ -28,9 +28,9 @@ date: 2023-09-03 12:00 -0400
 
     I was able to implement this new method, and I have run it over the usual sets of objects without error.
 
-![Desktop View](./assets/img/week_one/old_table.png){: w="683" h="111"}
+![Desktop View](/assets/img/week_one/old_table.png){: w="683" h="111"}
 _Image of the old .FITS file layout_
-![Desktop View](./assets/img/week1/detailed_table.png){: w="690" h="171"}
+![Desktop View](/assets/img/week1/detailed_table.png){: w="690" h="171"}
 _Image of the new detailed .FITS file layout_
 
 #### Future Work
@@ -51,7 +51,7 @@ _Image of the new detailed .FITS file layout_
 
     To compare these, the main plot we have been working with has been different projections, where we choose a halo within our set and slice out a small cube (usually 80 pixels across) around that halo from each of the relevant data cubes. We then sum these cubes along each axis, plotting these as contours. We are also plotting the halos in these slices as circles, with the radius corresponding to the virial radius of the halo and the color corresponding to whether the halo is capable of star formation. An example of one such plot is shown below;
 
-![Desktop View](./assets/img/week_one/slices.png){: w="1859" h="879"}
+![Desktop View](/assets/img/week_one/slices.png){: w="1859" h="879"}
 _Example of a contour plot along the x-axis surrounding a specific halo_
 
 #### Future Work
