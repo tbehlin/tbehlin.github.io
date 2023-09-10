@@ -5,7 +5,7 @@ categories:
 - Research Updates
 tags:
 - YSOLab
-- Semi-Analytic Cosmological Simulation
+- Cosmology Group
 
 date: 2023-09-03 12:00 -0400
 ---
@@ -33,7 +33,6 @@ _Image of the old .FITS file layout_
 ![Desktop View](/assets/img/detailed_table.png){: w="690" h="171"}
 _Image of the new detailed .FITS file layout_
 
-
 #### Future Work
 
     There a few things I think would be useful to work on in the coming weeks. 
@@ -42,7 +41,7 @@ _Image of the new detailed .FITS file layout_
 
     Another idea was to further investigate ways of identifying possibly variable protostars. Up until now we have only been performing very basic checks, mostly involving by-eye observations of the produced light curves and examinations of the standard deviations of the magnitudes. While doing some research, I came across this paper [(link)](https://www.aanda.org/articles/aa/pdf/2019/07/aa35418-19.pdf) that involves examining the variability of protostars using a variety of more sophisticated methods than we have been using. My goal was to dig into this paper, then see if I could reimplement some of these methods on our most promising variability candidates over the next few weeks.
 
-## Semi-Analytic Cosmological Simulation - Week 1
+## Cosmology Group - Week 1
 
 #### Building Slice Contours
 
@@ -52,9 +51,10 @@ _Image of the new detailed .FITS file layout_
 
     To compare these, the main plot we have been working with has been different projections, where we choose a halo within our set and slice out a small cube (usually 80 pixels across) around that halo from each of the relevant data cubes. We then sum these cubes along each axis, plotting these as contours. We are also plotting the halos in these slices as circles, with the radius corresponding to the virial radius of the halo and the color corresponding to whether the halo is capable of star formation.
 
+![Desktop View](/assets/img/slices.png){: w="1859" h="879"}
+_Example of a contour plot along the x-axis surrounding a specific halo_
+
 #### Future Work
 
     Our next step is to analyze these plots and try to identify some method of reintroducing the complexity that is present in the renaissance simulation that cannot be replicated by the bubble placement methods utilized in the semi-analytic model. We are currently leaning towards some kind of 'subtraction' method, where we subtract away the ionization from regions based on some factor; perhaps around high density regions, or around isolated halos that can't form stars.
 
-![Desktop View](/assets/img/slices.png){: w="1859" h="879"}
-_Example of a contour plot along the x-axis surrounding a specific halo_
