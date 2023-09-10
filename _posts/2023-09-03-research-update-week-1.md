@@ -49,3 +49,7 @@ date: 2023-09-03 12:00 -0400
 #### Future Work
 
     Our next step is to analyze these plots and try to identify some method of reintroducing the complexity that is present in the renaissance simulation that cannot be replicated by the bubble placement methods utilized in the semi-analytic model. We are currently leaning towards some kind of 'subtraction' method, where we subtract away the ionization from regions based on some factor; perhaps around high density regions, or around isolated halos that can't form stars.
+
+![Light mode only](/assets/img/endian/endian-light.png){: .light w="600" h="400" }
+![Dark mode only](/assets/img/endian/endian-dark.png){: .dark w="600" h="400" }
+_A diagram depicting the difference between endian configurations_
