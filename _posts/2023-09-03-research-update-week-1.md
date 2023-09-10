@@ -28,9 +28,9 @@ date: 2023-09-03 12:00 -0400
 
     I was able to implement this new method, and I have run it over the usual sets of objects without error.
 
-![Desktop View](/assets/img/week_one/old_table.png){: w="683" h="111"}
+![Desktop View](/assets/img/old_table.png){: w="683" h="111"}
 _Image of the old .FITS file layout_
-![Desktop View](/assets/img/week1/detailed_table.png){: w="690" h="171"}
+![Desktop View](/assets/img/detailed_table.png){: w="690" h="171"}
 _Image of the new detailed .FITS file layout_
 
 #### Future Work
@@ -55,6 +55,5 @@ _Image of the new detailed .FITS file layout_
 
     Our next step is to analyze these plots and try to identify some method of reintroducing the complexity that is present in the renaissance simulation that cannot be replicated by the bubble placement methods utilized in the semi-analytic model. We are currently leaning towards some kind of 'subtraction' method, where we subtract away the ionization from regions based on some factor; perhaps around high density regions, or around isolated halos that can't form stars.
 
-
-![Desktop View](/assets/img/week_one/slices.png){: w="1859" h="879"}
+![Desktop View](/assets/img/slices.png){: w="1859" h="879"}
 _Example of a contour plot along the x-axis surrounding a specific halo_
