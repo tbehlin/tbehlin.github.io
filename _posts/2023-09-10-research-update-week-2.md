@@ -10,7 +10,7 @@ tags:
 date: 2023-09-10 1:00 -0400
 ---
 
-## YSOLab - Week 2
+## YSOLab
 
 #### Results of First YSOLab Meeting
 
@@ -28,7 +28,7 @@ date: 2023-09-10 1:00 -0400
 
     Following the success or failure of this, I will need to perform the photometry necessary to acquire a magnitude measurement from these images. I have yet to ever actually do photometry, however I have been pointed to a 'photutils' package, and will spend some time experimenting, with a focus on learning basic terminology so that I can ask more directed questions to a subject matter expert during our next YSOLab meeting.
 
-## Cosmology Group - Week 2
+## Cosmology Group
 
 #### Halo Slice Plot Improvements
 
@@ -36,9 +36,8 @@ date: 2023-09-10 1:00 -0400
 
     This was also accompanied with a new weighting format for the renaissance ionization data, where the cubical slice is first multiplied by a cube of weights, which biases the data towards the middle-most layer, and diminishes the values in the cube more as they are further from the middle. This was implemented, and seems to improve the visualization, and helps to more clearly focus the plots on the location of the halo in question (the center of the slice).
 
-![Desktop View](/assets/img/week_two/halo_slice.png){: w="1859" h="879"}
+![Desktop View](/assets/img/week_2/halo_slice.png){: w="1859" h="879"}
 _Example of a contour plot along the x-axis surrounding a specific halo. The red outline shows any location where the model has ionization, while the blue shows any location with a value above 1.5 when a weighted sum of the model was taken._
-
 
 #### Future Work
 

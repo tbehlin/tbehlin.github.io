@@ -12,7 +12,7 @@ date: 2023-09-03 12:00 -0400
 
     This starts a series of posts I plan to make weekly to keep track of progress I have made in the various research projects I am involved in.
 
-## YSOLab - Week 1
+## YSOLab
 
     YSOLab has yet to meet this semester, with our first meeting being planned for next Friday (9/8/23). However, I have made some progress over the last week that I believe is worth documenting here.
 
@@ -41,7 +41,7 @@ _Image of the new detailed .FITS file layout_
 
     Another idea was to further investigate ways of identifying possibly variable protostars. Up until now we have only been performing very basic checks, mostly involving by-eye observations of the produced light curves and examinations of the standard deviations of the magnitudes. While doing some research, I came across this paper [(link)](https://www.aanda.org/articles/aa/pdf/2019/07/aa35418-19.pdf) that involves examining the variability of protostars using a variety of more sophisticated methods than we have been using. My goal was to dig into this paper, then see if I could reimplement some of these methods on our most promising variability candidates over the next few weeks.
 
-## Cosmology Group - Week 1
+## Cosmology Group
 
 #### Building Slice Contours
 
@@ -57,4 +57,3 @@ _Example of a contour plot along the x-axis surrounding a specific halo_
 #### Future Work
 
     Our next step is to analyze these plots and try to identify some method of reintroducing the complexity that is present in the renaissance simulation that cannot be replicated by the bubble placement methods utilized in the semi-analytic model. We are currently leaning towards some kind of 'subtraction' method, where we subtract away the ionization from regions based on some factor; perhaps around high density regions, or around isolated halos that can't form stars.
-
