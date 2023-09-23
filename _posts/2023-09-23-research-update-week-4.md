@@ -131,7 +131,7 @@ _Plot showing the gun violence incidents vs. the monthly average temperature in 
 
     The only real progress I made this week was on reading in the cluster file and image file. I then plotted the locations of the clusters on top of the galaxy itself, shown below.
 
-![Desktop View](/assets/img/week_4/IC4687.PNG){: w="999" h="920"}
+![Desktop View](/assets/img/week_4/IC4687_clusters.PNG){: w="999" h="920"}
 _Image plotting the clusters as black dots on top of a v-band picture of the galaxy IC4687_
 
 
