@@ -42,7 +42,7 @@ _Example light curve for one of the young stellar objects in our set with the in
 
 #### Source of Odd Bubble Geometry
 
-    Last week I had mentioned some strange emergent geometry we had observed in our model outputs, where instead of forming spheres as we had expected, the bubbles would form as cubes, even at scales where the resolution would allow for a sphere shape to form (4-5 pixel radius).
+    Last week I mentioned some strange emergent geometry we had observed in our model outputs, where instead of forming spheres as we had expected, the bubbles would form as cubes, even at scales where the resolution would allow for a sphere shape to form (4-5 pixel radius).
 
     My first step was to verify that this issue was a consistent feature of the model, and not introduced by changes I have made over the last 5 months. I was able to find an example model output I had recieved in May, that was created before I had made any modifications to the model. This older example still featured these cube shaped bubbles, confirming that these features were present, even at this further stage.
 
