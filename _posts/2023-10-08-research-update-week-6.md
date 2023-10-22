@@ -97,9 +97,9 @@ math: true
 
     To solve this, I wrote a small function to approximate the needed multiplier to counteract the overshooting from the selected bubble size.
 
-$$$
+$$
 y\ =\ e^{\left(-1.25\left(x-.15\right)\ +\frac{3}{4}\right)}+\frac{1}{4}
-$$$
+$$
 
 
 
