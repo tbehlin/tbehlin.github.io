@@ -4,6 +4,11 @@ layout: post
 title: Research Update - Week 13
 date: 2023-11-26 18:19 -0500
 
+categories:
+  - Research Updates
+tags:
+  - Cosmology Group
+
 ---
 
     This week's post will be fairly short, as I spent most of my time this week finalizing some of my upcoming graduate school applications, and I took advantage of thanksgiving break to do so.
