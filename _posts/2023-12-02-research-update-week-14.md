@@ -25,7 +25,7 @@ tags:
 
     In addition to the refinement of the filtering, I also spent some time examining how the offsets between the untimely and Spitzer data differ between the existing set, and this new set of data. After running the existing code I had originally written for this task from several months ago, I recieved the following graph;
 
-![Desktop View](/assets/img/week_14/delta_magnitude_graph.PNG){: w="1168" h="937"} _plot showing the delta magnitudes between the newer epoch Spitzer data and the nearby untimely data._
+![Desktop View](/assets/img/week_14/delta_magnitude_graph.png){: w="1168" h="937"} _plot showing the delta magnitudes between the newer epoch Spitzer data and the nearby untimely data._
 
     This seems to reinforce our initial assumption, which was that we could model this offset durably by applying a blanket magnitude correction to the untimely data. It also provides some evidence for the behavior we were seeing, where the 3.6 micron band was exhibiting a much larger offset between the untimely and Spitzer data, whereas the 4.5 micron band is much more consistent between the two telescopes, due likely to the more similar band profiles between the 4.5 and 4.6 filters on the two telescopes.
 
@@ -63,7 +63,7 @@ tags:
 
     While tuning the model variation, it struck me that perhaps using the overall Ionization fraction was not the best way of trying to match the renaissance output. The primary impetus for this is a specific region that has proven itself to be a consistent thorn in our sides during this project;
 
-![Desktop View](/assets/img/week_14/ren_vs_uni.PNG){: w="1200" h="558"} _image comparing one specific region in the renaissance output vs the uniform model_
+![Desktop View](/assets/img/week_14/ren_vs_uni.png){: w="1200" h="558"} _image comparing one specific region in the renaissance output vs the uniform model_
 
     This region is primarily because of halos that exist just outside of our selected simulation box, and therefore our models do not have the necessary information to replicate this very large ionized region. Therefore, in order for the overall box ionization of the model to match, we need to turn up the escape fraction higher than it would be in reality to compensate for this lost ionized region, resulting in bubbles that are much larger than they should be.
 
