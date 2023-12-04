@@ -146,7 +146,7 @@ _Plot showing the observed volume of bubbles in this test case_
 ![Desktop View](/assets/img/week_5/ic4687_cc.PNG){: w="1215" h="1039"}
 _Color-Color Diagram for IC4687_
 
-![Desktop View](/assets/img/week_5/ic4687_cc.PNG){: w="1212" h="1038"}
+![Desktop View](/assets/img/week_5/ngc3690_cc.PNG){: w="1212" h="1038"}
 _Color-Color Diagram for NGC3690_
 
     The main takeaway, looking at these, is that IC4687 appears to have a much older set of clusters, with far fewer very bright clusters present in our cluster set.
