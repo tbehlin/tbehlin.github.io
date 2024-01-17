@@ -18,7 +18,7 @@ tags:
 
     It depends on how productive I am over the break, but it is entirely possible that the updates will slow down significantly, or stop entirely, starting next week. In any event, they will start up again in mid-january when the spring semester begins.
 
-    I am also hoping, if I find the time, to write a few additional blog posts over the break. These would detail some of the work I did with Dr. Lilley, as that work has been reference a few times, but is otherwise invisible.
+    I am also hoping, if I find the time, to write a few additional blog posts over the break. These would detail some of the work I did with Dr. Lilley, as that work has been referenced a few times, but is otherwise invisible.
 
 ## YSOLab
 
@@ -26,7 +26,7 @@ tags:
 
     One of the main things I worked on this week was in trying to use the provided flags columns in the unTimely data to identify and filter saturated measurements.
 
-    The flags are given as a set of 2 8 bit integers, with each bit within those integers representing a different flag from either the unwise data or the unTimely process. To extract these, I made use of a loop and a format string operation to convert each integer into it's 8 bit representation, which is then stored as a column of strings within the pandas dataframe. I can then use the pandas .str accessor to create a 'sat' column, which is true if either of the saturation flag bits are 1.
+    The flags are given as a set of 2 8-bit integers, with each bit within those integers representing a different flag from either the unwise data or the unTimely process. To extract these, I made use of a loop and a format string operation to convert each integer into it's 8-bit representation, which is then stored as a column of strings within the pandas dataframe. I can then use the pandas .str accessor to create a 'sat' column, which is true if either of the saturation flag bits are 1.
 
     Using this process during the pre-loading stage removes about ~3% of the measurements from the set, however that is 3% of every possible measurement in the entire field. In reality, it is likely a much larger percentage of the actually relevant measurements.
 
