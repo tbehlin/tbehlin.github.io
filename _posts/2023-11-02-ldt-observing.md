@@ -9,6 +9,8 @@ tags:
 - python
 - astronomy
 
+image: /assets/img/LDT_obs/aligned_3color.PNG
+
 date: 2023-11-02 22:33 -0400
 
 ---

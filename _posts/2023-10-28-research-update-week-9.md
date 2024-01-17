@@ -11,7 +11,6 @@ tags:
   - Gun Violence Archive
   - Galaxy Cluster Pod
 
-
 math: true
 date: 2023-10-28 16:21 -0400
 
