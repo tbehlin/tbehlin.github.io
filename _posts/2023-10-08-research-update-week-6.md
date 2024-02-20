@@ -91,7 +91,7 @@ math: true
 
     For the majority of bubbles our model overshoots the intended bubble volume by 8x for isolated bubbles, and by 4x for unisolated bubbles. Previously, we had implemented a flat 1/4 multiplier to the number of photons in order to correct for this effect. However, some testing revealed that the effects of the pixel resolution meant small bubbles would overshoot the volume by less and less, down to no overshooting for bubbles with a radius of 1.
 
-![Desktop View](/assets/img/week_6/isolated bubble overshooting.PNG){: w="1396" h="638"} _Plot of the bubble volume overshooting on an isolated bubble_
+![Desktop View](/assets/img/week_6/isolated_bubble_overshooting.PNG){: w="1396" h="638"} _Plot of the bubble volume overshooting on an isolated bubble_
 
 
 
@@ -173,7 +173,7 @@ $$
 
 |  |  |
 | ----------- | ----------- |
-| ![Desktop View](/assets/img/week_6/H-Alpha Emitters_clusters.png){: w="1552" h="1441"} _Plot of chosen H-alpha emitting cluster positions_      |  ![Desktop View](/assets/img/week_6/Older Sources_clusters.png){: w="1552" h="1441"} _Plot of chosen older cluster positions_      |
+| ![Desktop View](/assets/img/week_6/H-Alpha_Emitters_clusters.png){: w="1552" h="1441"} _Plot of chosen H-alpha emitting cluster positions_      |  ![Desktop View](/assets/img/week_6/Older_Sources_clusters.png){: w="1552" h="1441"} _Plot of chosen older cluster positions_      |
 
 
 
