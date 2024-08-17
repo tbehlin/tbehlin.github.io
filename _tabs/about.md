@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-Hey! My name is Thomas Behling. I am currently an undergraduate student at the University of Toledo, headed into my Senior year. I am majoring in Astrophysics, with minors in Math and Data Science.
+Hey! My name is Thomas Behling. I am currently a Ph.D. student at MSU, in the Dual Ph.D. Astrophysics and Computer Science Program.
 
 My academic interests are currently centered around astronomy, programming and statistics, more specifically applying the latter to problems in the former.
 
